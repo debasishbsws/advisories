@@ -161,3 +161,12 @@ advisories:
         type: pending-upstream-fix
         data:
           note: 'See upstream issue: https://github.com/newrelic/newrelic-fluent-bit-output/pull/144'
+
+  - id: CVE-2024-24787
+    aliases:
+      - GHSA-5fq7-4mxc-535h
+    events:
+      - timestamp: 2024-05-03T14:26:19Z
+        type: pending-upstream-fix
+        data:
+          note: "Go is pined to version 1.20.X, we can't go past until this upstream issue is solved: https://github.com/golang/go/issues/62130#issuecomment-1687335898"
